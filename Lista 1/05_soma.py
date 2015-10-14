@@ -1,7 +1,11 @@
 #coding: utf-8
 
-int_number = int(input("Digite um número inteiro: "))
-decimal_number = float(input("Digite um número real: "))
-total = int_number + decimal_number
+n = int(input("Digite um número inteiro: "))
+total = 0.0
+i = 0
+
+while i < n:
+  total += float(input("Digite um número real: "))
+  i += 1
 
 print("Total: {}").format(total)
